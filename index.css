@@ -1,16 +1,24 @@
 body {
     font-family: Arial, sans-serif;
-    background-color: #f0f0f0;
+    background-image: 
+}
+body {
+    font-family: Arial, sans-serif;
+    background-image: url('IMG.jpg'); /* Replace 'background.jpg' with your image file */
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
 }
 
 .container {
     max-width: 600px;
     margin: 100px auto;
     padding: 20px;
-    background-color: #fff;
+    background-color: rgba(255, 255, 255, 0.8); /* Add transparency to the container */
     border-radius: 8px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
     text-align: center;
+    color: #333; /* Change text color for better readability */
 }
 
 h1 {
