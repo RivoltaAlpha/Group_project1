@@ -19,7 +19,9 @@ function getReaction(anime) {
             return 'Erwin Smith: Dedicate your hearts!';
         case 'my hero academia':
             return 'Plus Ultra!';
+        case 'hunter X hunter':
+            return 'May you find the Kilua to your Gon';
         default:
-            return 'Excelsior!';
+            return 'Anime is Amaizing!';
     }
 }
